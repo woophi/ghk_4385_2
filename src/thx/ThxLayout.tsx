@@ -15,13 +15,13 @@ export const ThxLayout = () => {
           Не получилось добавить "Доход на остаток"
         </Typography.TitleResponsive>
         <Typography.Text tag="p" view="primary-medium" defaultMargins={false}>
-          Выбранную опцию невозможно добавить. Следите за новостями, чтобы узнать, когда она станет доступной
+          Уже знаем в чем дело и чиним. Попробуйте оформить подписку позднее
         </Typography.Text>
       </div>
       <Gap size={96} />
       <div className={appSt.bottomBtn}>
         <ButtonMobile href="https://alfa.me/ght" block view="secondary">
-          Буду ждать
+          К Альфа-Смарт
         </ButtonMobile>
       </div>
     </>
