@@ -12,10 +12,10 @@ export const ThxLayout = () => {
       <div className={thxSt.container}>
         <img src={sparkles} width={80} height={80} className={thxSt.rocket} />
         <Typography.TitleResponsive font="system" tag="h1" view="small" style={{ margin: '24px 0 12px' }} weight="bold">
-          Не получилось добавить "Доход на остаток"
+          Не получилось добавить Доход на остаток в подписку
         </Typography.TitleResponsive>
         <Typography.Text tag="p" view="primary-medium" defaultMargins={false}>
-          Уже знаем в чем дело и чиним. Попробуйте оформить подписку позднее
+          Уже знаем в чём дело и чиним. Попробуйте ещё раз позже
         </Typography.Text>
       </div>
       <Gap size={96} />
